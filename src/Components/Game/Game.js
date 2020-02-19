@@ -207,7 +207,7 @@ function Game() {
         alert('congratulations - you have delivered the project on time');
       }
     } else {
-      alert('make sure the project isnt due to overrun');
+      alert('make sure the project isnt due to overrun.');
     }
   };
 
