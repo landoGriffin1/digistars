@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc8a1015269fece70ed17fed7f2e69ab",
+    "revision": "1f9bab2dbbe22b22e9cb0022290a4a50",
     "url": "/digistars/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digistars/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "cc994ca0858b57979c0b",
-    "url": "/digistars/static/css/main.493a4e97.chunk.css"
+    "revision": "fbf21e82082f1584c651",
+    "url": "/digistars/static/css/main.acbe7863.chunk.css"
   },
   {
     "revision": "ad23eab8098c4713d0e5",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digistars/static/js/2.567be57e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc994ca0858b57979c0b",
-    "url": "/digistars/static/js/main.9da5bc87.chunk.js"
+    "revision": "fbf21e82082f1584c651",
+    "url": "/digistars/static/js/main.1a088f81.chunk.js"
   },
   {
     "revision": "9c5a8347b9a3ebd9dab6",

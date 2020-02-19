@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/digistars/static/css/main.493a4e97.chunk.css",
-    "main.js": "/digistars/static/js/main.9da5bc87.chunk.js",
-    "main.js.map": "/digistars/static/js/main.9da5bc87.chunk.js.map",
+    "main.css": "/digistars/static/css/main.acbe7863.chunk.css",
+    "main.js": "/digistars/static/js/main.1a088f81.chunk.js",
+    "main.js.map": "/digistars/static/js/main.1a088f81.chunk.js.map",
     "runtime-main.js": "/digistars/static/js/runtime-main.f1b7a650.js",
     "runtime-main.js.map": "/digistars/static/js/runtime-main.f1b7a650.js.map",
     "static/css/2.47e06e2e.chunk.css": "/digistars/static/css/2.47e06e2e.chunk.css",
     "static/js/2.567be57e.chunk.js": "/digistars/static/js/2.567be57e.chunk.js",
     "static/js/2.567be57e.chunk.js.map": "/digistars/static/js/2.567be57e.chunk.js.map",
     "index.html": "/digistars/index.html",
-    "precache-manifest.f296a4ef0f53be4ba4f6660fa5ca9f7c.js": "/digistars/precache-manifest.f296a4ef0f53be4ba4f6660fa5ca9f7c.js",
+    "precache-manifest.dea70ebd124c169c0f8e7d1f99c7a4cf.js": "/digistars/precache-manifest.dea70ebd124c169c0f8e7d1f99c7a4cf.js",
     "service-worker.js": "/digistars/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/digistars/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.493a4e97.chunk.css.map": "/digistars/static/css/main.493a4e97.chunk.css.map",
+    "static/css/main.acbe7863.chunk.css.map": "/digistars/static/css/main.acbe7863.chunk.css.map",
     "static/js/2.567be57e.chunk.js.LICENSE.txt": "/digistars/static/js/2.567be57e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1b7a650.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.567be57e.chunk.js",
-    "static/css/main.493a4e97.chunk.css",
-    "static/js/main.9da5bc87.chunk.js"
+    "static/css/main.acbe7863.chunk.css",
+    "static/js/main.1a088f81.chunk.js"
   ]
 }
