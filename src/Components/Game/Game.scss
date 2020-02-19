@@ -1,0 +1,67 @@
+.game {
+  h1 {
+    border-bottom: 1px solid;
+    padding-bottom: 0.8rem;
+  }
+
+  h2 {
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.people {
+  .teams {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+    .team {
+      flex: 0 0 24%;
+    }
+  }
+}
+.section {
+  border-bottom: 1px solid;
+  padding: 2rem 0;
+}
+
+.start {
+  text-align: center;
+  margin: 50px auto 0;
+
+  button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 30px;
+  }
+}
+
+.work {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+
+  h2 {
+    width: 100%;
+  }
+
+  .work-item {
+    flex: 0 0 25%;
+  }
+}
+
+.debug {
+  display: flex;
+  flex-wrap: wrap;
+
+  dl {
+    margin-right: 2rem;
+  }
+
+  h2 {
+    width: 100%;
+  }
+}

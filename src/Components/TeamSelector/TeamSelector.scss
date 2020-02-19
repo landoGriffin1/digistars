@@ -1,0 +1,75 @@
+.team_selector {
+  border: 1px solid;
+
+  .header {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    background: #333;
+    color: #fff;
+  }
+
+  .types {
+    padding: 0 1rem;
+  }
+
+  .type {
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+
+    &:last-child {
+      border: none;
+    }
+
+    .label {
+      margin: 0 0 0.4rem;
+    }
+
+    .row {
+      display: flex;
+      margin: 0;
+    }
+  }
+
+  ul {
+    display: flex;
+    margin: 0 10px;
+    padding: 0;
+    flex: 0 0 auto;
+    width: calc(100% - 52px);
+    flex-wrap: wrap;
+    li {
+      list-style: none;
+
+      width: 16px;
+      height: 16px;
+      position: relative;
+      margin: 0 2px 2px;
+
+      svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+
+  button {
+    border: none;
+    background: none;
+    width: 16px;
+    height: 16px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    &.remove {
+    }
+
+    &.add {
+      margin-left: auto;
+    }
+  }
+}

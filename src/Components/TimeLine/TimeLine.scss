@@ -1,0 +1,62 @@
+.times {
+  position: relative;
+  .days {
+    display: flex;
+    position: relative;
+
+    span {
+      text-align: center;
+      transform: translateX(-50%);
+
+      &.last {
+        position: absolute;
+        right: 0;
+        transform: translateX(50%);
+      }
+    }
+  }
+
+  .bars {
+    display: flex;
+    width: 100%;
+    background: #ddd;
+
+    > div {
+      overflow: hidden;
+    }
+    .label {
+      padding: 0.5rem;
+    }
+  }
+
+  .ux {
+    background: #fff07c;
+    color: #000;
+  }
+
+  .vd {
+    background: #80ff72;
+    color: #000;
+  }
+
+  .eng {
+    background: #7ee8fa;
+    color: #000;
+  }
+
+  .current {
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 5px 10px 5px;
+      border-color: transparent transparent #000000 transparent;
+      position: absolute;
+      right: -50%;
+      transform: translateX(50%);
+      bottom: -40px;
+    }
+  }
+}
