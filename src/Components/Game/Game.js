@@ -428,7 +428,7 @@ function Game() {
       </div>
 
       <div className="people section">
-        <h2>Choose your starting team</h2>
+        <h2>Choose your starting team ...</h2>
         {/*<h3>Team members left: {teamCount}</h3>*/}
         <div className="teams">{renderTeams()}</div>
         <br />
