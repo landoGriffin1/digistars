@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --global user.email "allis.james@gmail.com"
           git config --global user.name "landoGriffin1"
-          git remote set-url origin https://95d6c6e31c00f49b74e0f10a9fbc14e424715df9@github.com/landoGriffin1/digistars.git
+          git remote set-url origin https://53ec6013b17b03771079cf782a03faefd6148186@github.com/landoGriffin1/digistars.git
           npm run deploy
       - name: Updating Domain
         run: echo "Update domain"
