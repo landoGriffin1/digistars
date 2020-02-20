@@ -17,11 +17,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
         run: npm install
-      - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.gh_pages }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
+      - name: Deploy to GH Pages
+        run: |
+          git config --global user.email "allis.james@gmail.com"
+          git config --global user.name "landoGriffin1"
+          git remote set-url origin https://${{ secrets.gh_pages }}@github.com/landoGriffin1/digistars.git
+          npm run deploy
       - name: Updating Domain
         run: echo "Update domain"
